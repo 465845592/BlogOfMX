@@ -1,0 +1,3 @@
+[submodule "minimal-mistakes"]
+	path = minimal-mistakes
+	url = git@github.com:mmistakes/minimal-mistakes.git
