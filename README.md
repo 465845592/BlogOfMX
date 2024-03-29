@@ -1,2 +1,2 @@
 # BlogOfMX
-my blog
+https://bitmouxin.github.io/
