@@ -7,7 +7,7 @@
 # OC 内存管理
 
 # 面试知识点
-[iOS RoadMap](https://roadmap.isylar.com/)
-[算法OI Wiki](https://oi-wiki.org/basic/)
-[Swift Programming Language](https://docs.swift.org/swift-book/documentation/the-swift-programming-language)
-[Programming with Objective-C](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html#//apple_ref/doc/uid/TP40011210-CH1-SW1)
+- [iOS RoadMap](https://roadmap.isylar.com/)
+- [算法OI Wiki](https://oi-wiki.org/basic/)
+- [Swift Programming Language](https://docs.swift.org/swift-book/documentation/the-swift-programming-language)
+- [Programming with Objective-C](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html#//apple_ref/doc/uid/TP40011210-CH1-SW1)
