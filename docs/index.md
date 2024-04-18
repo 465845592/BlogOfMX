@@ -16,10 +16,10 @@ iOS：
 计算机基础：
 - [CS自学指南](https://csdiy.wiki/)
 - [编程指北](https://csguide.cn/)
-- [算法:OI Wiki](https://oi-wiki.org/basic/)
-- [算法:灵茶山艾府-基础算法精讲](https://space.bilibili.com/206214/channel/collectiondetail?sid=842776&ctype=0)
 
 # 算法
+- [算法:OI Wiki](https://oi-wiki.org/basic/)
+- [算法:灵茶山艾府-基础算法精讲](https://space.bilibili.com/206214/channel/collectiondetail?sid=842776&ctype=0)
 > 算法的***正确性***是前提，不能盲目套模版。如果没有思路，先考虑暴力求解，找到特点/规律后逐步优化。
 
 ## 1. 相向双指针
@@ -78,12 +78,12 @@ iOS：
 ## 6. 二叉树 & 递归
 > 对应`灵茶山艾府-基础算法精讲`的第9、10、11、12集。
 
-递归原理：***数学归纳法***，像多米诺骨牌一样 传递的推倒相同的牌，直到终止条件。  
+递归原理：***数学归纳法***，像多米诺骨牌一样 传递的推倒***相同的***(意味着每次的递归函数都是相同的子问题)牌，直到终止条件。  
 递归模版：递归函数=多米诺骨牌，重复的调用自己；终止条件：牌堆末尾，判断推导是否结束。
 ```
 递归函数() {
   满足终止条件：return
-  否则：递归函数()
+  否则：return 递归函数()
 }
 ```
 ### [104.二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/solution/kan-wan-zhe-ge-shi-pin-rang-ni-dui-di-gu-44uz/)
@@ -102,4 +102,29 @@ iOS：
 ### [102.二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/solution/bfs-wei-shi-yao-yao-yong-dui-lie-yi-ge-s-xlpz/)
 ### [103.二叉树的锯齿形层序遍历](https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/solution/bfs-wei-shi-yao-yao-yong-dui-lie-yi-ge-s-xlv3/)
 ### [513.找树左下角的值](https://leetcode.cn/problems/find-bottom-left-tree-value/solution/bfs-wei-shi-yao-yao-yong-dui-lie-yi-ge-s-f34y/)
+
+## 8. 回溯：子集型回溯
+> 对应`灵茶山艾府-基础算法精讲`的第14集。
+
+因为循环遍历的局限性(需要重复n次)，所以回溯一般使用***递归***(递归详情见6.二叉树&递归)实现,某些情况下，回溯也可采用搜索实现。
+> 回溯模版：1.当前操作是什么？(确定递归函数的参数) 2.子问题是什么？(递归函数(i)) 3.下一个子问题是什么？(遍历i时，进行操作，下一个子问题=递归函数(i+1))
+### [17.电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/solutions/2059416/hui-su-bu-hui-xie-tao-lu-zai-ci-pythonja-3orv/)
+### [78.子集](https://leetcode.cn/problems/subsets/solutions/2059409/hui-su-bu-hui-xie-tao-lu-zai-ci-pythonja-8tkl/)
+### [131.分割回文串](https://leetcode.cn/problems/palindrome-partitioning/solutions/2059414/hui-su-bu-hui-xie-tao-lu-zai-ci-pythonja-fues/)
+
+## 9. 回溯：组合型回溯+剪枝
+> 对应`灵茶山艾府-基础算法精讲`的第15集。
+
+*** [77.组合](https://leetcode.cn/problems/combinations/solutions/2071017/hui-su-bu-hui-xie-tao-lu-zai-ci-pythonja-65lh/)
+*** [216.组合总和 III](https://leetcode.cn/problems/combination-sum-iii/solutions/2071013/hui-su-bu-hui-xie-tao-lu-zai-ci-pythonja-feme/)
+*** [22.括号生成](https://leetcode.cn/problems/generate-parentheses/solutions/2071015/hui-su-bu-hui-xie-tao-lu-zai-ci-pythonja-wcdw/)
+
+## 10. 回溯：排列型回溯+N皇后
+> 对应`灵茶山艾府-基础算法精讲`的第16集。
+
+*** [46.全排列](https://leetcode.cn/problems/permutations/solution/hui-su-bu-hui-xie-tao-lu-zai-ci-jing-que-6hrh/)
+*** [51.N 皇后](https://leetcode.cn/problems/n-queens/solution/hui-su-tao-lu-miao-sha-nhuang-hou-shi-pi-mljv/)
+*** [52.N 皇后 II](https://leetcode.cn/problems/n-queens-ii/solution/hui-su-miao-sha-nhuang-hou-yi-ge-shi-pin-l41l)
+
+
 
