@@ -133,3 +133,9 @@ iOS：
 ### [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/solution/zuo-liao-nbian-huan-bu-hui-yi-ge-shi-pin-ukwm/)
 ### [239.滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/solution/shi-pin-yi-ge-shi-pin-miao-dong-dan-diao-ezj6/)
 
+## 12. 动态规划（DP，Dynamic programming）
+> 对应`灵茶山艾府-基础算法精讲`的第17~25集。
+
+算法核心：构建***状态转移***方程。
+记忆化搜索->递推->动态规划。状态就是递归函数，动态规划只是用数组来保存状态(类似记忆化搜索)，递推(状态转移)的过程就是递归。
+
